@@ -1,0 +1,76 @@
+body{
+    background-color: #DEE8F5 ;
+    margin-bottom: 3rem;
+}
+.chart{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.second_chart{
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.mini_chart{
+    padding: 1rem;
+}
+.chartBasicDiv{
+    background-color: white;
+    padding: 1rem;
+    border-radius: 25px;
+}
+.optionsBasicDiv{
+    background-color: white;
+    padding: 1rem;
+    padding-top: 5px;
+    border-radius: 25px;
+    height: 100px;
+}
+.nav_option{
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 15px;
+    margin-left: 15px;
+    color: grey;
+}
+.navbar-brand{
+    margin-left: 20px;
+}
+.navbar-toggler{
+    margin-right: 20px;
+}
+.options_heading{
+    font-size: 20px;
+}
+.btn{
+    width: 80%;
+    font-weight: bold;
+}
+.range-slider{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+@media screen and (max-width: 991px) {
+    .second_chart{
+        padding: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .chart{
+        padding: 2rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+@media screen and (max-width: 575px) {
+    .second_chart{
+        padding: 1rem;
+    }
+    .chart{
+        padding: 1rem;
+    }
+}
